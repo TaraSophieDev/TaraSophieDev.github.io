@@ -1,4 +1,58 @@
 body {
     background-image: url("gifs/Twinkling_Stars.gif");
     color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    color: #645CAA;
+    border-style: solid;
+    margin: 5%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+    overflow: hidden;
+    list-style-position: outside;
+    list-style: disc;
+}
+
+.navbar {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #BFACE0;
+}
+
+.about-me {
+    color: #A084CA;
+    border-style: solid;
+    margin: 5%;
+    padding: 2%;
+}
+
+.pronouns {
+    color: #BFACE0;
+    border-color: #ffb2ff;
+    border-style: solid;
+    margin: 5%;
+    padding: 2%;
+}
+
+.links {
+    color: #BFACE0;
+    border-color: #ffb2ff;
+    border-style: solid;
+    margin: 5%;
+    padding: 2%;
+}
+
+a {
+    color: #EBC7E8;
 }
