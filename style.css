@@ -54,6 +54,14 @@ ul {
     padding: 2%;
 }
 
+.webring {
+    color: #BFACE0;
+    border-color: #ffb2ff;
+    border-style: solid;
+    margin: 5%;
+    padding: 2%;
+}
+
 a {
     color: #EBC7E8;
 }
