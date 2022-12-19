@@ -17,9 +17,9 @@ header {
 
 ul {
     list-style-type: none;
-    margin: 1;
+    margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     list-style-position: outside;
     list-style: disc;
 }
@@ -50,7 +50,7 @@ ul {
     color: #BFACE0;
     border-color: #ffb2ff;
     border-style: solid;
-    margin: 5%;
+    margin: 10%;
     padding: 2%;
     grid-area: links;
     
@@ -60,7 +60,7 @@ ul {
     color: #BFACE0;
     border-color: #ffb2ff;
     border-style: solid;
-    margin: 5%;
+    margin-left: 10%;
     padding: 2%;
     grid-area: webring;
     
@@ -69,7 +69,7 @@ ul {
 .about-me {
     color: #A084CA;
     border-style: solid;
-    margin: 5%;
+    margin-right: 5%;
     padding: 2%;
     grid-area: about-me;
     
