@@ -11,7 +11,7 @@ body {
 header {
     color: #645CAA;
     border-style: solid;
-    margin: 5%;
+    margin: 2%;
     
 }
 
@@ -24,26 +24,26 @@ ul {
     list-style: disc;
 }
 
-.navbar {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    color: #BFACE0;
-}
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'links about-me webring'
+    'links pronouns webring'
+    'footer footer footer';
+  }
 
-.about-me {
+.navbar {
     color: #A084CA;
     border-style: solid;
     margin: 5%;
     padding: 2%;
-}
-
-.pronouns {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
     color: #BFACE0;
-    border-color: #ffb2ff;
-    border-style: solid;
-    margin: 5%;
-    padding: 2%;
+    grid-area: navbar;
+    
 }
 
 .links {
@@ -52,6 +52,8 @@ ul {
     border-style: solid;
     margin: 5%;
     padding: 2%;
+    grid-area: links;
+    
 }
 
 .webring {
@@ -60,8 +62,36 @@ ul {
     border-style: solid;
     margin: 5%;
     padding: 2%;
+    grid-area: webring;
+    
 }
+
+.about-me {
+    color: #A084CA;
+    border-style: solid;
+    margin: 5%;
+    padding: 2%;
+    grid-area: about-me;
+    
+}
+
+.pronouns {
+    color: #BFACE0;
+    border-color: #ffb2ff;
+    border-style: solid;
+    margin: 5%;
+    padding: 2%;
+    grid-area: pronouns;
+}
+
+
+
+
 
 a {
     color: #EBC7E8;
+}
+
+footer {
+    grid-area: footer;
 }
